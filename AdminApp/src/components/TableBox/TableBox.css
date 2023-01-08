@@ -1,0 +1,24 @@
+.table-box {
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  overflow: auto;
+}
+
+.table-box__title-group {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-box__title {
+  color: #808080;
+  font-size: 1.5rem;
+}
+
+.table-box .action-list {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}

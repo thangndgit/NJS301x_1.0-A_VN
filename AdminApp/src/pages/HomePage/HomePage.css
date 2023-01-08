@@ -1,0 +1,51 @@
+.home-page .info-list {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 15px;
+}
+
+.home-page .info-item {
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+}
+
+.home-page .info-item__title {
+  color: #808080;
+}
+
+.home-page .info-item__value {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.home-page .info-item__icon {
+  text-align: end;
+}
+
+.home-page .info-item__icon svg {
+  box-sizing: content-box;
+  padding: 3.75px;
+  border-radius: 3.75px;
+}
+
+.home-page .info-item__icon.color-1 svg {
+  color: #dd173e;
+  background-color: #ffcccc;
+}
+
+.home-page .info-item__icon.color-2 svg {
+  color: #daa622;
+  background-color: #f8edd2;
+}
+
+.home-page .info-item__icon.color-3 svg {
+  color: #028102;
+  background-color: #cce6cc;
+}
+
+.home-page .info-item__icon.color-4 svg {
+  color: #993399;
+  background-color: #e6cce6;
+}

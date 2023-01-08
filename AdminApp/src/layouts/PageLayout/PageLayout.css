@@ -1,0 +1,26 @@
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.page-layout > * {
+  border: 1px solid #d3d3d3;
+}
+
+.page-layout > .layout-top {
+  padding: 9px;
+}
+
+.page-layout > .layout-bot {
+  padding: 15px;
+  height: calc(100vh - 50px);
+  overflow: auto;
+}
+
+.app-logo {
+  text-align: center;
+  color: #7451f8;
+  font-weight: bold;
+  font-size: 1.25rem;
+  white-space: nowrap;
+}

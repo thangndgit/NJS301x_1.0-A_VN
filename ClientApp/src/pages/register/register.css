@@ -1,0 +1,37 @@
+.registerContainer {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.registerForm {
+  width: 100%;
+  max-width: min(300px, 90%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.registerForm input {
+  padding: 15px;
+  border-radius: 4.5px;
+}
+
+.registerForm button {
+  padding: 9px;
+  border-radius: 4.5px;
+  color: white;
+  background-color: #0071c2;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.registerForm button:hover {
+  background-color: #003580;
+}
+
+.registerForm__title {
+  text-align: center;
+}

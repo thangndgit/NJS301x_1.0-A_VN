@@ -1,0 +1,156 @@
+.bookingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.bookingWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.bookNow {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bookingTop {
+  display: flex;
+  gap: 15px;
+}
+
+.bookingTopLeft {
+  width: 70%;
+}
+
+.bookingTopRight {
+  width: 30%;
+}
+
+.bookingTitle {
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+.bookingDesc {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.bookingPrice {
+  flex: 1;
+  background-color: #ebf3ff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bookingPrice > h1 {
+  font-size: 18px;
+  color: #555;
+}
+.bookingPrice > span {
+  font-size: 14px;
+}
+.bookingPrice > h2 {
+  font-weight: 300;
+}
+.bookingPrice > button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bookingInput {
+  display: flex;
+  gap: 30px;
+}
+
+.bookingInputDate {
+  width: fit-content;
+}
+
+.bookingInputInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookingInputInfo > label {
+  margin-bottom: 7.5px;
+}
+
+.bookingInputInfo > input {
+  margin-bottom: 15px;
+  padding: 7.5px;
+}
+
+.bookingRooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex: 1;
+}
+
+.bookingRoom {
+  padding-right: 120px;
+  display: flex;
+}
+
+.bookingRoomDesc {
+  max-width: 20vw;
+}
+
+.bookingRoomLeft {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+}
+
+.bookingRoomRight {
+  display: flex;
+  align-items: center;
+  gap: 7.5px;
+}
+
+.bookingRoomCheckBox {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.bookingPayment {
+  padding: 12px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  width: 30%;
+  min-width: fit-content;
+}
+
+.bookingBtn {
+  padding: 12px;
+  color: white;
+  background-color: #0071c2;
+  border-color: #0071c2;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}

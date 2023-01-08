@@ -1,0 +1,32 @@
+.side-bar {
+  color: #808080;
+  border: 1px solid #d3d3d3;
+  border-bottom: none;
+  padding: 15px;
+  padding-top: 0;
+}
+
+.side-bar a {
+  color: #808080;
+  display: inline-block;
+  padding: 7.5px;
+  width: 100%;
+}
+
+.side-bar li {
+  margin-top: 7.5px;
+  white-space: nowrap;
+}
+
+.side-bar label {
+  margin-top: 22.5px;
+  display: inline-block;
+}
+
+.side-bar label:first-child {
+  margin-top: 0;
+}
+
+.side-bar svg {
+  color: #7451f8;
+}

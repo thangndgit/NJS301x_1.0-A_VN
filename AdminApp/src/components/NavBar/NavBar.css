@@ -1,0 +1,17 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.nav-bar__logo {
+  text-align: center;
+  color: #7451f8;
+  font-weight: bold;
+  font-size: 1.25rem;
+  white-space: nowrap;
+}
+
+.nav-bar > * {
+  border: 1px solid #d3d3d3;
+  padding: 9px;
+}

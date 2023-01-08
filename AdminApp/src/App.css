@@ -1,0 +1,58 @@
+.booking-status {
+  color: #ffffff;
+  border-radius: 7.5px;
+  padding: 3.75px 7.5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.booking-status.check-in {
+  background-color: #00ff00;
+}
+
+.booking-status.check-out {
+  background-color: #696969;
+}
+
+.booking-status.booked {
+  background-color: #ff6347;
+}
+
+.btn-delete {
+  padding: 5px 7.5px;
+  border-radius: 5px;
+  border: 1px solid #ff6347;
+  color: #ff6347;
+  background-color: transparent;
+}
+
+.btn-delete:hover {
+  background-color: #ff6347;
+  color: #ffffff;
+}
+
+.btn-add {
+  padding: 5px 7.5px;
+  border-radius: 5px;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  background-color: transparent;
+}
+
+.btn-add:hover {
+  background-color: #00ff00;
+  color: #ffffff;
+}
+
+.btn-edit {
+  padding: 5px 7.5px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  color: #808080;
+  background-color: transparent;
+}
+
+.btn-edit:hover {
+  background-color: #808080;
+  color: #ffffff;
+}
