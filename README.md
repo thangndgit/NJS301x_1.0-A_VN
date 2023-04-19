@@ -4,6 +4,13 @@ Lập trình Web Back-End với NodeJS
 
 ## Website:
 
-- [Client app](https://splashy-thirsty-hickory.glitch.me/)
-- [Admin app](https://mahogany-peppered-verbena.glitch.me/)
-- [Server](https://jagged-colorful-caravel.glitch.me/)
+- [Client app](https://njs301-asm3-client-app.onrender.com)
+- [Admin app](https://njs301-asm3-admin-app.onrender.com)
+- [Server](https://njs301-asm3-server.onrender.com)
+
+## Test accounts:
+
+- Customer: motphutvaotran@gmail.com / 123123123
+- Manager: thang.nd194170@sis.hust.edu.vn / 123123123
+- Admin: vu.pm193198@sis.hust.edu.vn / 123123123
+- The admin account can be used to test all functionalities for admin, manager, and customer
