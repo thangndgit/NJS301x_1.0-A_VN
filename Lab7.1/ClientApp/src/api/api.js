@@ -2,9 +2,9 @@ const host = "http://localhost:5000/api";
 
 const api = {};
 
-api.users = {
-  getAll: () => host + "/users",
-  create: () => host + "/users",
+api.product = {
+  getAll: () => host + "/products",
+  create: () => host + "/products",
 };
 
 export const call = (url = host, apply = () => {}, options = {}) => {
